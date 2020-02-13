@@ -12,5 +12,5 @@ for i in range(1, n + 1):
     if cnt == k:
         print(i)
         break
-else:
+else:               # 위 for문이 정상작동 했을 때 else로 넘어감
     print(-1)
