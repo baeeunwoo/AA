@@ -20,7 +20,12 @@ sys.stdin = open("input2.txt", "rt")
 '''
 k번째 작은 수    #문제 이해가 잘 안된다.
 '''
-
-T = int(input())
-n, s, e, k = map(int, input().split())
-a = list(map(int, input().split()))
+#
+# T = int(input())
+# n, s, e, k = map(int, input().split())
+# a = list(map(int, input().split()))
+# a = a[s - 1 : e]
+# print(a[1 : 5])
+# a.sort()
+# print(a)
+# print("#%d %d" %(t + 1, a[k - 1]))
