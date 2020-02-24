@@ -5,12 +5,12 @@
 import sys
 # sys.stdin = open("input.txt", "r")
 n, m = map(int, input().split())
-cnt = [0] * (n + m + 3)
+cnt = [0] * (n + m + 3) #리스트 크기
 max = -2147000000  #가장 작은값으로 초기화
 for i in range(1, n + 1):
     for j in range(1, m + 1):
         cnt[i + j] += 1
-for i in range(n + m + 1):
+for i in range(n + m + 1):   #나타나는 빈도의 최댓값 찾기, n+m까지 도는 거
     if cnt[i] > max:
         max = cnt[i]
 for i in range(n + m + 1):
